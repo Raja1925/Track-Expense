@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div>
       <main>
-        <h1>Track Your Expense</h1>
+        <h1><span><img src="spending.png"/></span>Track Your Expense</h1>
         <div className="expense-tracker">
           <ExpenseForm
             setExpenses={setExpenses}
